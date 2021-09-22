@@ -18,6 +18,6 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   articles.forEach(article => {
-    document.querySelector(".main").appendChild(article)
+    document.body.appendChild(article)
   })
 });
